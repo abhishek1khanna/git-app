@@ -7,7 +7,7 @@ app.use(express.json());
 try{
 
     app.get('/receive', async (req, res) => {
-          return res.status(200).send('RabbitMQ channel is not initialized');
+          return res.status(200).send('RabbitMQ channel is not initialized !!!! OKK');
     });
 
     console.log('server starting ... ');
