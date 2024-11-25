@@ -8,7 +8,7 @@ app.use(express.json());
 try{
 
     app.get('/receive', async (req, res) => {
-          return res.status(200).send('RabbitMQ channel is not initialized !!!! OKK updated very nice updated once again');
+          return res.status(200).send('RabbitMQ channel is not initialized !!!! OKK updated very nice updated once again v2');
     });
 
 
